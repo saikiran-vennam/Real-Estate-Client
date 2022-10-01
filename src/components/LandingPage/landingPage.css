@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Titillium+Web:wght@400;600&display=swap');
+.main-div{
+    height:98vh;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.left-panel{
+    height:100%;
+    width:20%;
+    background-color: #E1F9F4;
+}
+
+.left-panel>ul>li {
+    list-style: none;
+    margin: 50px 20px 30px 20px;
+    color:  #AAAAAA;
+}
+
+.left-panel>ul>li>img{
+    width: 25px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.property-link > img{
+    width: 25px;
+    height: 15px;
+    margin-right: 20px;
+}
+
+.property-link{
+    color: #2289FF;
+}
+
+.logo{
+    font-family: ''Source Sans Pro'';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    color: #1A1B1C;
+    text-align:center;
+    margin-top: 25px;
+
+}
+
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    width:100%
+
+}
+
+.user-header{
+    border-bottom: 3px solid #d5f8f1;
+    color:  #AAAAAA;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.user-name{
+    width: 300px
+}
+.user-name:hover{
+    cursor: pointer;
+}
+.user-name .user-img{
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.user-id{
+    width: 300px;
+
+    margin-left: 20px;
+    margin-right: 65%;
+}
+.search {
+    height: 100px;
+    display: flex;
+}
+
+.add-property-btn{
+    left: 80%;
+    right: 2.31%;
+    top: 5%;
+    bottom: 79.17%;
+    padding: 20px;
+    background: #6AB4F8;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);  
+    color: #fff;
+    position: relative;
+   /* width: 100%; */
+    border-radius: 50px;
+    align-items: center;
+    padding: 30px;
+    margin:30px 
+}
+.add-property{
+    position: relative;
+    top:-8px
+}
+
+.list1:hover, .add-property-btn:hover{
+    cursor: pointer;
+}
+
+.add-header{
+    width: 100%;
+    color:  #7D7D7D;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.add-id{
+    margin-left: 20px;
+    margin-right: 75%;
+}
+
+.logout{
+    text-decoration: none;
+}
+
+.logout-dropdown{
+    position: relative;
+    left:-100px;
+    top:40px;
+    width:fit-content;
+    background-color: #4C57B6;
+    border-radius: 50px;
+    /* margin-top: 50px; */
+}
+.logout-dropdown button:hover{
+    cursor: pointer;
+}
+.logout-dropdown button{
+    background-color: #4C57B6;
+    width:100px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+}
